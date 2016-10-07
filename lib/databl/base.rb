@@ -45,8 +45,11 @@ module Databl
 
     protected
 
-    def self.column_names mapping
-      @@columns = mapping
+    class << self
+      attr_accessor :columns
+      def column_names mapping
+        columns = mapping
+      end
     end
 
     def generate_response
@@ -71,7 +74,7 @@ module Databl
     end
 
     def sort_column_name
-      @@columns[sort_column] || @@columns[:default]
+      columns[sort_column] || columns[:default]
     end
 
     def session_opts
