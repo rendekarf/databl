@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["rendekarf"]
   spec.email         = ["thatguy@rendekarf.in"]
 
-  spec.summary       = %q{A small datatable client that builds responses under the hood.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A small javascript datatable plugin that builds responses for the client.}
+  spec.homepage      = "https://github.com/rendekarf/databl"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

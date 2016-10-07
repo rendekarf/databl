@@ -16,7 +16,7 @@ If you need to sort your data there are two methods provided to you that you can
 
 If you need the query term:
 
-* ```query``` the query term that the user provides in the search box
+* ```query``` returns the query term if a user provides it via the search box
 
 You can also define a mapping between the header indices and sql fragment as a macro using ```column_names``` that takes a hash with keys
 as the header index and values as the sql fragments
